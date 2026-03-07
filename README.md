@@ -1,19 +1,27 @@
-# Pixl.js
+# Pixl.js (한국어)
 
-这是一个基于原版[Pixl.js](http://www.espruino.com/Pixl.js)的复刻版本，主要的功能是用来模拟Amiibo。
+원본 [Pixl.js](http://www.espruino.com/Pixl.js)를 기반으로 한 복각 버전으로, 주요 기능은 Amiibo 에뮬레이션입니다.
 
-## 图片
+> 이 저장소는 [solosky/pixl.js](https://github.com/solosky/pixl.js)의 한국어 포크입니다.
+
+## 사진
 
 ![image](https://github.com/solosky/pixl.js/blob/main/assets/pixljs-3.jpg)
 ![image](https://github.com/solosky/pixl.js/blob/main/assets/pixljs-4.jpg)
 
 ![image](https://github.com/solosky/pixl.js/blob/main/assets/pixljs-5.jpg)
 
-## 文档
+## 문서
 
-* [中文文档](docs/zh/README.md)
+* [중문 문서](docs/zh/README.md)
 * [English Documentation](docs/en/README.md)
 * [Italian Documentation](docs/it/README.md)
+
+## 한국어 지원
+
+* UI 전체 한국어 번역 적용
+* 한글 폰트(BDF) 포함
+* 폰트 출처: [taegu8619/pixl.js_kor](https://github.com/taegu8619/pixl.js_kor)
 
 ## Credits
 
@@ -25,41 +33,36 @@
 * [ChameleonUltra](https://github.com/RfidResearchGroup/ChameleonUltra)
 * [CH32V003-GameConsole](https://github.com/wagiminator/CH32V003-GameConsole)
 
-## Contribution 
+## 기여
 
-* 特别感谢 @Caleeeeeeeeeeeee 完善的Bootloader。
-* 特别感谢 @白橙 制作的外壳。 
-* 特别感谢 @impeeza 提供的文档翻译 。
+* @Caleeeeeeeeeeeee — Bootloader 개선
+* @白橙 — 외장 케이스 제작
+* @impeeza — 문서 번역
 
-## 讨论群
 
-国内用户可以加入QQ群 109761876 进行交流。
+## 커뮤니티
 
-## Office Channel
+* [Pixl.js 공식 Discord 서버](https://discord.gg/4mqeQwcAB2)
 
-Where do you find the community?
-* [Pixl.js community discord server](https://discord.gg/4mqeQwcAB2)
+## 고지사항
 
-## 声明
+본 프로젝트는 오픈소스 프로젝트이며, 학습 및 연구 목적으로만 사용해 주세요. 상업적 용도로 사용하지 마세요.<br />
+Amiibo는 닌텐도의 등록 상표이며, NTAG21X는 NXP의 등록 상표입니다.
 
-本项目为开源项目，仅为学习研究用途，请勿用于商业用途。 <br />
-Amiibo是任天堂的注册商标，NTAG21X为NXP的注册商标。
-
-内置的Amiibo数据库来源分别如下：
+내장된 Amiibo 데이터베이스의 출처:
 
 * [amiiloop](https://download.amiloop.app/)
 * [AmiiboAPI](https://www.amiiboapi.com/)
 
-源代码没有包含任何有任天堂版权的资源（比如相关密钥，Amiibo原始数据等）。
+소스 코드에는 닌텐도의 저작권이 있는 리소스(관련 키, Amiibo 원본 데이터 등)가 포함되어 있지 않습니다.
 
-# License
+## 라이선스
 
-本项目基于GPL 2.0 License发布，使用请遵循License的约定。
+본 프로젝트는 GPL 2.0 라이선스로 배포됩니다.
 
-* 如果对项目做了修改，需要把改后的源码发布出来
-* 发布出来的源码必须要使用相同的License发布
+* 프로젝트를 수정한 경우, 수정된 소스 코드를 공개해야 합니다
+* 공개된 소스 코드는 동일한 라이선스로 배포해야 합니다
 
+## 참고
 
-## 提示 
-
-Amiibo无限刷需要网上搜索key_retail.bin文件然后上传到到磁盘根目录后才能使用。
+Amiibo 무한 복제 기능을 사용하려면 인터넷에서 `key_retail.bin` 파일을 찾아 디스크 루트 디렉토리에 업로드해야 합니다.
