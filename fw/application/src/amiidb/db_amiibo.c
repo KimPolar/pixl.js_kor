@@ -535,5 +535,6 @@ const db_amiibo_t amiibo_list[] = {
 {0x1f010000, 0x00270002, "메타 나이트", "메타 나이트"},
 {0x1f000000, 0x04c41e03, "커비", "커비"},
 {0x1f030100, 0x04c91e03, "반다나 웨이들 디", "반다나 웨이들 디"}
+{0, 0, 0, 0}
 };
 const size_t amiibo_list_size = sizeof(amiibo_list) / sizeof(db_amiibo_t) - 1;
